@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/ehg2004/ros2_ws/src/ros2_rt_eval/build/ros2_rt_eval': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ehg2004/.local/bin/cmake /home/ehg2004/ros2_ws/src/ros2_rt_eval -DCMAKE_INSTALL_PREFIX=/home/ehg2004/ros2_ws/src/ros2_rt_eval/install/ros2_rt_eval
+[0.056s] -- The C compiler identification is GNU 9.4.0
+[0.092s] -- The CXX compiler identification is GNU 9.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.210s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.386s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.466s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.490s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.608s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.646s] -- Looking for pthread_create in pthreads
+[0.674s] -- Looking for pthread_create in pthreads - not found
+[0.674s] -- Looking for pthread_create in pthread
+[0.710s] -- Looking for pthread_create in pthread - found
+[0.710s] -- Found Threads: TRUE  
+[0.804s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.915s] -- Configuring done (0.9s)
+[0.917s] [31mCMake Error at CMakeLists.txt:29 (add_executable):
+[0.917s]   Cannot find source file:
+[0.917s] 
+[0.917s]     example_interfaces
+[0.917s] 
+[0.917s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.917s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.918s] 
+[0.918s] [0m
+[0.918s] [31mCMake Error at CMakeLists.txt:29 (add_executable):
+[0.918s]   No SOURCES given to target: rt_cli_node
+[0.918s] 
+[0.918s] [0m
+[0.918s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.927s] Invoked command in '/home/ehg2004/ros2_ws/src/ros2_rt_eval/build/ros2_rt_eval' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/ehg2004/.local/bin/cmake /home/ehg2004/ros2_ws/src/ros2_rt_eval -DCMAKE_INSTALL_PREFIX=/home/ehg2004/ros2_ws/src/ros2_rt_eval/install/ros2_rt_eval
