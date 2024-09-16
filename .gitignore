@@ -9,3 +9,4 @@ ros2_rt_eval_dep/log/
 # OS generated files #
 ######################
 *.vscode
+.cred

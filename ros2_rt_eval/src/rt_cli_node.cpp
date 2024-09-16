@@ -82,7 +82,7 @@ int main(int argc, char **argv)
             - result.get()->t3;
             // Log and record the result
             output_csv << client_id << "," << 0 << "," << t2 << "," << t3<<"," << t4 << "\n";
-            // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "CLIENT Client ID: %d, t2: %ld, t3: %ld, t4 %ld ", client_id, t2/1000, t3/1000, t4/1000);
+            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "CLIENT Client ID: %d, t2: %ld, t3: %ld, t4 %ld ", client_id, t2/1000, t3/1000, t4/1000);
         } else {
             //it's just a fad.  And maybe those people use the scrollback code.CLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call vector_service");
         }
