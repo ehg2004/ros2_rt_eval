@@ -60,33 +60,32 @@ int main(int argc, char **argv)
     id_vec[0]=client_id;
     
 
-
+    rclcpp::sleep_for(std::chrono::microseconds(360));
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "STARTING CLIENT...");
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "CLIENT Client ID: %d,", client_id);
     for (int i = 0; i < num_calls; ++i) {
         // Record time t1
         auto t1 = std::chrono::steady_clock::now();
-
         auto request = std::make_shared<ros2_rt_eval_dep::srv::Vector::Request>();
         request->input_vector = input_vector;
         request->client_id_vector = id_vec;  // Send the client ID as a vector
 
-        auto result_future = client->async_send_request(request);
-
+        auto result_future = client->async_send_request(request);        
         if (rclcpp::spin_until_future_complete(node, result_future) ==
             rclcpp::FutureReturnCode::SUCCESS)
-        {
+        {   
+            auto result = result_future.get();
             // Record time t2
-            auto t2 = result_future.get()->t2 - std::chrono::duration_cast<std::chrono::nanoseconds>(t1.time_since_epoch()).count();
-            auto t3 = result_future.get()->t3 - result_future.get()->t2;
+            auto t2 = result.get()->t2 - std::chrono::duration_cast<std::chrono::nanoseconds>(t1.time_since_epoch()).count();
+            auto t3 = result.get()->t3 - result.get()->t2;
             auto t4 = std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::steady_clock::now().time_since_epoch()).count() 
-            - result_future.get()->t3;
+            - result.get()->t3;
             // Log and record the result
             output_csv << client_id << "," << 0 << "," << t2 << "," << t3<<"," << t4 << "\n";
-            //RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "CLIENT Client ID: %d, t2: %lld, t3: %lld, t4 %lld ", client_id, t2/1000, t3/1000, t4/1000);
+            // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "CLIENT Client ID: %d, t2: %ld, t3: %ld, t4 %ld ", client_id, t2/1000, t3/1000, t4/1000);
         } else {
             //it's just a fad.  And maybe those people use the scrollback code.CLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call vector_service");
         }
-
-        rclcpp::sleep_for(std::chrono::microseconds(360));
     }
 
     output_csv.close();

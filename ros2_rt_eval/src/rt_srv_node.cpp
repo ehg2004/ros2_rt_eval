@@ -10,15 +10,15 @@ void handle_request(
     std::shared_ptr<ros2_rt_eval_dep::srv::Vector::Response> response)
 {
     // Record time after request is received
-    //auto t2 = std::chrono::steady_clock::now();
-    //response->t2 = std::chrono::duration_cast<std::chrono::nanoseconds>(t2.time_since_epoch()).count();
+    auto t2 = std::chrono::steady_clock::now();
+    response->t2 = std::chrono::duration_cast<std::chrono::nanoseconds>(t2.time_since_epoch()).count();
 
     // Process the request (unmodified vector is sent back)
     response->output_vector = request->input_vector;
     
     // Record time before response is sent
-    //auto t3 = std::chrono::steady_clock::now();
-    //response->t3 = std::chrono::duration_cast<std::chrono::nanoseconds>(t3.time_since_epoch()).count();
+    auto t3 = std::chrono::steady_clock::now();
+    response->t3 = std::chrono::duration_cast<std::chrono::nanoseconds>(t3.time_since_epoch()).count();
     //retornar de volta o t2
 }
 
