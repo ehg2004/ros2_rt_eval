@@ -10,3 +10,7 @@ git config core.compression 9
 git repack --threads=7 #for 8 threads
 git push
 ```
+on dell_g15:
+'''
+ ./ros2_rt_eval/ros2_rt_eval/scripts/multi_cli.sh 1000000 1000000 10 ./ros2_rt_eval/results/rt_results_multi_cli/i7/
+'''
