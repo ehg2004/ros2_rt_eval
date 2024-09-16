@@ -14,20 +14,20 @@ int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
 
-    if (argc < 6) {
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Usage: vector_client <num_calls> <vector_size> <client_id> <server_id> <dir>");
+    if (argc < 5) {
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Usage: vector_client <num_calls> <vector_size> <client_id> <dir>");
         return 1;
     }
     
     int num_calls = std::atoi(argv[1]);
     int vector_size = std::atoi(argv[2]);
     int client_id = std::atoi(argv[3]);
-    int server_id = std::atoi(argv[4]);
-    std::string dir = argv[5];
+    // int server_id = std::atoi(argv[4]);
+    std::string dir = argv[4];
 
 
     // auto node = rclcpp::Node::make_shared("vector_client"+std::to_string(client_id));
-    auto node = rclcpp::Node::make_shared("vector_client"+ std::to_string(server_id));
+    auto node = rclcpp::Node::make_shared("vector_client");
     auto client = node->create_client<ros2_rt_eval_dep::srv::Vector>("vector_service");
 
     while (!client->wait_for_service(1s)) {
@@ -42,7 +42,7 @@ int main(int argc, char **argv)
     // std::filesystem::create_directories(dir);
 
     // CSV filename based on client ID and directory
-    std::string filename = dir + "/" + std::to_string(client_id) + "client.csv";
+    std::string filename = dir  + std::string(node.get()->get_namespace())+ std::string(node.get()->get_name()) + "client.csv";
     std::ofstream output_csv(filename);
     if (output_csv.is_open()) {
         output_csv << "Client ID,t1 (before service call),t2 (after service returns)\n";

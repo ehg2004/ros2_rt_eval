@@ -9,6 +9,9 @@ git commit -m "Add results"
 git config core.compression 9
 git repack --threads=7 #for 8 threads
 git push
+git lfs fetch --all
+git lfs pull
+
 ```
 on dell_g15:
 ```

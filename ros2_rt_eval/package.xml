@@ -18,7 +18,7 @@
   <member_of_group>example_interfaces</member_of_group>
   <exec_depend>ros2_rt_eval_dep</exec_depend>
   <member_of_group>ros2_rt_eval_dep</member_of_group>
-
+  <exec_depend>ros2launch</exec_depend>
   <export>
     <build_type>ament_cmake</build_type>
   </export>
