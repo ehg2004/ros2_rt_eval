@@ -1,0 +1,26 @@
+{
+  "package_name": "ros2_rt_eval_dep",
+  "output_dir": "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval_dep/rosidl_generator_py/ros2_rt_eval_dep",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval_dep/rosidl_adapter/ros2_rt_eval_dep:srv/Vector.idl",
+    "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval_dep/rosidl_adapter/ros2_rt_eval_dep:srv/CallClientSrv.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval_dep/rosidl_adapter/ros2_rt_eval_dep/srv/Vector.idl",
+    "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval_dep/rosidl_adapter/ros2_rt_eval_dep/srv/CallClientSrv.idl"
+  ]
+}

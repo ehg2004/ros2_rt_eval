@@ -1,0 +1,7 @@
+{
+  "package_name": "ros2_rt_eval_dep",
+  "non_idl_tuples": [
+    "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/ros2_rt_eval_dep:srv/Vector.srv",
+    "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/ros2_rt_eval_dep:srv/CallClientSrv.srv"
+  ]
+}

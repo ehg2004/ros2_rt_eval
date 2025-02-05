@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_rt_eval_dep/srv/CallClientSrv.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_rt_eval_dep {
+  module srv {
+    struct CallClientSrv_Request {
+      int32 num_calls;
+    };
+    struct CallClientSrv_Response {
+      sequence<int64> latencies;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_rt_eval_dep/srv/Vector.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_rt_eval_dep {
+  module srv {
+    struct Vector_Request {
+      @verbatim (language="comment", text=
+        "The vector to be operated on")
+      sequence<int16> input_vector;
+
+      @verbatim (language="comment", text=
+        "The client ID vector")
+      sequence<int16> client_id_vector;
+    };
+    struct Vector_Response {
+      @verbatim (language="comment", text=
+        "The resulting output vector after the operation")
+      sequence<int16> output_vector;
+
+      @verbatim (language="comment", text=
+        "The duration of the operation")
+      int64 duration;
+
+      int64 t2;
+
+      int64 t3;
+    };
+  };
+};

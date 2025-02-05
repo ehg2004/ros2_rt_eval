@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval': AMENT_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval_dep:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/ros2_rt_eval -DCMAKE_INSTALL_PREFIX=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.264s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.413s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.507s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.550s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.555s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.642s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.723s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.750s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.806s] -- Looking for pthread.h
+[0.868s] -- Looking for pthread.h - found
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.936s] -- Found Threads: TRUE  
+[0.993s] -- Found ros2_rt_eval_dep: 0.0.0 (/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/share/ros2_rt_eval_dep/cmake)
+[1.072s] -- Configuring done
+[1.085s] -- Generating done
+[1.087s] -- Build files have been written to: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval
+[1.096s] Invoked command in '/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval' returned '0': AMENT_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval_dep:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/ros2_rt_eval -DCMAKE_INSTALL_PREFIX=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval
+[1.098s] Invoking command in '/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval': AMENT_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval_dep:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval -- -j8 -l8
+[1.138s] [ 50%] [32mBuilding CXX object CMakeFiles/rt_cli_node.dir/src/rt_cli_node.cpp.o[0m
+[1.138s] [ 50%] [32mBuilding CXX object CMakeFiles/rt_srv_node.dir/src/rt_srv_node.cpp.o[0m
+[4.738s] [ 75%] [32m[1mLinking CXX executable rt_srv_node[0m
+[4.893s] [ 75%] Built target rt_srv_node
+[5.002s] [100%] [32m[1mLinking CXX executable rt_cli_node[0m
+[5.145s] [100%] Built target rt_cli_node
+[5.154s] Invoked command in '/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval' returned '0': AMENT_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval_dep:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval -- -j8 -l8
+[5.175s] Invoking command in '/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval': AMENT_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval_dep:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval
+[5.181s] -- Install configuration: ""
+[5.182s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/lib/ros2_rt_eval/rt_srv_node
+[5.182s] -- Set runtime path of "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/lib/ros2_rt_eval/rt_srv_node" to ""
+[5.182s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/lib/ros2_rt_eval/rt_cli_node
+[5.183s] -- Set runtime path of "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/lib/ros2_rt_eval/rt_cli_node" to ""
+[5.183s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval//launch
+[5.183s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval//launch/multi_cli_srv.py
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval//launch/multi_srv.py
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval//launch/multi_cli.py
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ament_index/resource_index/package_run_dependencies/ros2_rt_eval
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ament_index/resource_index/parent_prefix_path/ros2_rt_eval
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/environment/ament_prefix_path.sh
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/environment/ament_prefix_path.dsv
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/environment/path.sh
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/environment/path.dsv
+[5.184s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/local_setup.bash
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/local_setup.sh
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/local_setup.zsh
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/local_setup.dsv
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/package.dsv
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ament_index/resource_index/packages/ros2_rt_eval
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/cmake/ros2_rt_evalConfig.cmake
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/cmake/ros2_rt_evalConfig-version.cmake
+[5.185s] -- Installing: /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval/share/ros2_rt_eval/package.xml
+[5.187s] Invoked command in '/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval' returned '0': AMENT_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval:/home/robo/enzo_ws/rt_ws/install/ros2_rt_eval_dep:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/install/ros2_rt_eval_dep/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build/ros2_rt_eval

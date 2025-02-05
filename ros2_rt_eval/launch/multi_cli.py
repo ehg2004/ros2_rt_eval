@@ -8,7 +8,7 @@ def generate_launch_description():
             namespace='node1',
             executable='rt_cli_node',
             name='cli1',
-            arguments=['100', '100', '1' , './results_test']
+            arguments=['10000000', '100000', '1' , './results_test/multi_cli']
 
         ),
         Node(
@@ -16,7 +16,7 @@ def generate_launch_description():
             namespace='node1',
             executable='rt_cli_node',
             name='cli2',
-            arguments=['100', '100', '1' , './results_test']
+            arguments=['10000000', '100000', '1' , './results_test/multi_cli']
 
         ),
         Node(
@@ -24,7 +24,7 @@ def generate_launch_description():
             namespace='node1',
             executable='rt_cli_node',
             name='cli3',
-            arguments=['100', '100', '1' , './results_test']
+            arguments=['10000000', '100000', '1' , './results_test/multi_cli']
 
         ),
         Node(
@@ -32,7 +32,7 @@ def generate_launch_description():
             namespace='node1',
             executable='rt_cli_node',
             name='cli4',
-            arguments=['100', '100', '1' , './results_test']
+            arguments=['10000000', '100000', '1' , './results_test/multi_cli']
 
         ),
         Node(
@@ -40,7 +40,7 @@ def generate_launch_description():
             namespace='node1',
             executable='rt_cli_node',
             name='cli5',
-            arguments=['100', '100', '1' , './results_test']
+            arguments=['10000000', '100000', '1' , './results_test/multi_cli']
 
         ),
         Node(

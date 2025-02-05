@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-186dfa2f6de18be06400.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_rt_eval",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_rt_eval_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_rt_eval_uninstall-Debug-b79b99aa725ee49924a8.json",
+					"name" : "ros2_rt_eval_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rt_cli_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rt_cli_node-Debug-91f9c5d29e10d279340c.json",
+					"name" : "rt_cli_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rt_srv_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rt_srv_node-Debug-60e324df62d02da31cc6.json",
+					"name" : "rt_srv_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-5511c8895b1adf502093.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/build",
+		"source" : "/home/robo/enzo_ws/rt_ws/src/ros2_rt_eval/ros2_rt_eval"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

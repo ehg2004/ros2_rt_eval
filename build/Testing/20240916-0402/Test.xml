@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240916-0402-Experimental"
+	Name="robo-Vostro-3480"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="robo-Vostro-3480"
+	OSRelease="5.15.163-rt78"
+	OSVersion="#3 SMP PREEMPT_RT Sat Sep 14 22:39:11 -03 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="7802"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1800"
+	>
+	<Testing>
+		<StartDateTime>Sep 16 10:38 -03</StartDateTime>
+		<StartTestTime>1726493918</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 16 10:38 -03</EndDateTime>
+		<EndTestTime>1726493918</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
